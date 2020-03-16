@@ -1,0 +1,153 @@
+
+        body{
+            font-family: 'Noto Serif JP', serif;
+            background-color: rgba(2, 31, 54, 0.63);
+            color: white;
+            font: normal 20pt Arial;
+            text-align: center;
+            background-image: url("background.jpg");
+            
+        }
+        p{
+            font-family: 'Noto Serif JP', serif;  
+            padding-left: 20px;
+        }
+        h1{
+            font-family: 'Noto Serif JP', serif;
+            color: rgb(156, 226, 211);/*Comentario CSS*/
+        }
+        h2{
+            font-family: 'Noto Serif JP', serif;
+            color: rgb(159, 180, 184);/*Comentario CSS*/
+        }
+        strong{
+            font-weight: bolder;
+        }
+        table,tr,th,td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        canvas#tela{
+            text-align: center;
+            margin: 30px 30px 30px 30px;
+            height: 400px;
+            width: 400px;
+            border: 1px solid;
+            background: rgba(141, 226, 3, 0.7);
+            border-radius: 10px;
+            padding: 20px 20px 20px 20px;
+            box-shadow: 5px 5px 10px rgb(83, 0, 46);
+        }
+        div#config{
+            text-align: left;
+            margin: 10px 10px 10px 10px;
+            height: auto;
+            border: 1px solid;
+            background: rgba(47, 0, 75, 0.8);
+            border-radius: 10px;
+            padding: 5px;
+            box-shadow: 5px 5px 10px rgb(83, 0, 46);
+        }
+        div#form{
+            border: 2px solid;
+            margin-top: 15px;
+            padding: 5px;
+            text-align: center;
+            height: auto;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            background: rgba(47, 0, 75, 0.8);
+            box-shadow: 5px 5px 10px rgb(83, 0, 46);
+        }
+        aside#controle{            
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 30px;
+            height: auto;
+            width: 300px;
+            border: 1px solid;
+            background: rgba(226, 3, 3, 0.3);
+            border-radius: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            box-shadow: 5px 5px 10px rgb(83, 0, 46);
+            display:block;
+	    	float: right;
+		    padding: 10px;
+		
+        }
+        img#img{
+            border: 1px solid;
+            margin-top: auto;
+            height: 200px;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            border-radius: 10px;
+            background: rgba(236, 3, 81, 0.5);
+            box-shadow: 5px 5px 10px rgb(83, 0, 46); 
+        }
+        input{
+            font:normal 15pt 'Arial';
+            width: 90px;
+            height: 25px;  
+            background: black;
+            color: red; 
+            text-align: center;         
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-right: 10px;            
+        }
+        section#corpo{
+            margin-top: 30px;
+            padding: 10px;
+            border: 2px solid;
+            text-align: center;
+            height: auto;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            background: rgba(0, 0, 255, 0.7);
+            box-shadow: 5px 5px 10px rgb(83, 0, 46);
+        }
+        header#cabecalho{
+            padding: 20px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            border: 1px solid;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            background: rgba(26, 73, 104, 0.8);
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(83, 0, 46);
+        }
+        footer#rodape{
+            padding: 20px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+            border: 1px solid;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            background: rgba(24, 34, 41, 0.8);            
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(83, 0, 46);
+        }
+
+        button{
+            margin-left: 10px;
+            font:normal 15pt 'Arial';
+            background: rgba(255, 0, 0, 0.527);
+            color: rgb(255, 255, 255); 
+            text-align: center;         
+            border-radius: 10px;
+        }
+        
+   
